@@ -51,12 +51,6 @@ tasks {
 
     shadowJar {
         val loweredProject = project.name.lowercase()
-        dependencies {
-            include("love.chihuyu:chihuyulib:0.1.0")
-            include("org.jetbrains.kotlin:kotlin-stdlib")
-            include("dev.jorel:commandapi-core:8.7.6")
-            include("dev.jorel:commandapi-kotlin:8.7.6")
-        }
         exclude("org/slf4j/**")
         relocate("love.chihuyu", "love.chihuyu.$loweredProject.lib.love.chihuyu")
         relocate("org.snakeyaml", "love.chihuyu.$loweredProject.lib.org.snakeyaml")
