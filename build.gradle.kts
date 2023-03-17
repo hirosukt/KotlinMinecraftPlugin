@@ -20,7 +20,7 @@ repositories {
 dependencies {
     compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
     implementation("love.chihuyu:chihuyulib:0.1.0")
-    implementation("dev.jorel:commandapi-core:8.7.6")
+    implementation("dev.jorel:commandapi-core:8.8.0")
     implementation("dev.jorel:commandapi-kotlin:8.7.6")
     implementation("org.yaml:snakeyaml:2.0")
     implementation(kotlin("stdlib"))
@@ -54,7 +54,7 @@ tasks {
         dependencies {
             include("love.chihuyu:chihuyulib:0.1.0")
             include("org.jetbrains.kotlin:kotlin-stdlib")
-            include("dev.jorel:commandapi-core:8.7.6")
+            include("dev.jorel:commandapi-core:8.8.0")
             include("dev.jorel:commandapi-kotlin:8.7.6")
         }
         exclude("org/slf4j/**")
