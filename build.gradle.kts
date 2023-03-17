@@ -90,6 +90,7 @@ open class SetupTask : DefaultTask() {
     @TaskAction
     fun action() {
         val projectDir = project.projectDir
+        projectDir.resolve("renovate.json").deleteOnExit()
         val srcDir = projectDir.resolve("src/main/kotlin/love/chihuyu/${project.name.lowercase()}").apply(File::mkdirs)
         srcDir.resolve("${project.name}Plugin.kt").writeText(
             """
