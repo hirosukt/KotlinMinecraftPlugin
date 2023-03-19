@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="idea settings">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinMinecraftPlugin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinMinecraftPlugin" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mxk0dxRE1eaQ14UelVitPPdMO0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/home/developing/Plugin/KotlinMinecraftPlugin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\developing\Plugin\PurpurPluginTemplate\buildSrc" />
+      <recent name="C:\home\developing\Plugin\PurpurPluginTemplate\src\main\kotlin\love\chihuyu\plugin" />
+      <recent name="C:\home\developing\Plugin\PurpurPluginTemplate\src\main" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="love.chihuyu.plugin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PurpurPluginTemplate [setup]">
+    <configuration name="PurpurPluginTemplate [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PurpurPluginTemplate [setup]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="setup" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
+      <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
+        <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="" />
+      <created>1678716399246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678716399246</updated>
+      <workItem from="1678716400454" duration="4762000" />
+      <workItem from="1678725635385" duration="72000" />
+      <workItem from="1678725883045" duration="91000" />
+      <workItem from="1678779368571" duration="4085000" />
+      <workItem from="1678785976338" duration="6543000" />
+      <workItem from="1678812580517" duration="68000" />
+      <workItem from="1678871620700" duration="2699000" />
+      <workItem from="1678968981308" duration="594000" />
+      <workItem from="1678990602010" duration="666000" />
+      <workItem from="1678993451516" duration="271000" />
+      <workItem from="1679086062588" duration="14000" />
+      <workItem from="1679087279085" duration="130000" />
+      <workItem from="1679087443482" duration="47000" />
+      <workItem from="1679087621931" duration="282000" />
+      <workItem from="1679087991783" duration="1291000" />
+      <workItem from="1679134738433" duration="66000" />
+      <workItem from="1679134816510" duration="8000" />
+      <workItem from="1679134829937" duration="139000" />
+      <workItem from="1679135529941" duration="158000" />
+    </task>
+    <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
+      <created>1678719091952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678719091952</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ド―――――――――――――――ん！！！！！">
+      <created>1678719174264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678719174264</updated>
+    </task>
+    <task id="LOCAL-00003" summary="リポジトリだぁぁぁーーーーーーーーーーーーーーーーーーーーーーッッッッッ！！！！！！">
+      <created>1678724691250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678724691250</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ぶちゅ">
+      <created>1678724811129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678724811129</updated>
+    </task>
+    <task id="LOCAL-00005" summary="うおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお">
+      <created>1678725685062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725685062</updated>
+    </task>
+    <task id="LOCAL-00006" summary="うおりゃあああああああああああああああああああああああああああああああああ">
+      <created>1678725704369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725704369</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ジャマだあああああああああああああああああああ">
+      <created>1678725918026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725918026</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ファーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーック">
+      <created>1678725948464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725948464</updated>
+    </task>
+    <task id="LOCAL-00009" summary="どぅおりゃあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ">
+      <created>1678725961382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725961382</updated>
+    </task>
+    <task id="LOCAL-00010" summary="いよいしょーーーーーーーーーーーーーーーーーーーーーーーーーーー">
+      <created>1678782310945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678782310945</updated>
+    </task>
+    <task id="LOCAL-00011" summary="よいしょ">
+      <created>1678785901265</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678785901265</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1678786381464</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678786381464</updated>
+    </task>
+    <task id="LOCAL-00013" summary="よいしょ">
+      <created>1678807589121</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678807589121</updated>
+    </task>
+    <task id="LOCAL-00014" summary="よいしょ">
+      <created>1678809012398</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678809012398</updated>
+    </task>
+    <task id="LOCAL-00015" summary="よいしょ">
+      <created>1678811145213</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678811145214</updated>
+    </task>
+    <task id="LOCAL-00016" summary="よいしょ">
+      <created>1678811163645</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678811163645</updated>
+    </task>
+    <task id="LOCAL-00017" summary="よいしょ">
+      <created>1678811292291</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678811292291</updated>
+    </task>
+    <task id="LOCAL-00018" summary="あぷでと">
+      <created>1678875415064</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678875415064</updated>
+    </task>
+    <task id="LOCAL-00019" summary="おけーい">
+      <created>1678876084368</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876084368</updated>
+    </task>
+    <task id="LOCAL-00020" summary="さむいしゅーふぃくす">
+      <created>1678992897344</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678992897344</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change name">
+      <created>1679087400016</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679087400016</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Initial commit">
+      <created>1679087728862</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679087728862</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fuck renovate when setup">
+      <created>1679087889499</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679087889499</updated>
+    </task>
+    <task id="LOCAL-00024" summary="buy yeah waste code">
+      <created>1679089309137</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679089309137</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bye george">
+      <created>1679089376417</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679089376417</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update ignore">
+      <created>1679134754360</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679134754360</updated>
+    </task>
+    <task id="LOCAL-00027" summary="idea settings">
+      <created>1679134761280</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679134761280</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！" />
+    <MESSAGE value="ド―――――――――――――――ん！！！！！" />
+    <MESSAGE value="リポジトリだぁぁぁーーーーーーーーーーーーーーーーーーーーーーッッッッッ！！！！！！" />
+    <MESSAGE value="ぶちゅ" />
+    <MESSAGE value="うおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお" />
+    <MESSAGE value="うおりゃあああああああああああああああああああああああああああああああああ" />
+    <MESSAGE value="ジャマだあああああああああああああああああああ" />
+    <MESSAGE value="ファーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーック" />
+    <MESSAGE value="どぅおりゃあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ" />
+    <MESSAGE value="いよいしょーーーーーーーーーーーーーーーーーーーーーーーーーーー" />
+    <MESSAGE value="update" />
+    <MESSAGE value="よいしょ" />
+    <MESSAGE value="あぷでと" />
+    <MESSAGE value="おけーい" />
+    <MESSAGE value="さむいしゅーふぃくす" />
+    <MESSAGE value="change name" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="fuck renovate when setup" />
+    <MESSAGE value="buy yeah waste code" />
+    <MESSAGE value="bye george" />
+    <MESSAGE value="update ignore" />
+    <MESSAGE value="idea settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea settings" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

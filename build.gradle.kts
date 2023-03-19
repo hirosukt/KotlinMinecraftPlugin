@@ -56,6 +56,7 @@ tasks {
         relocate("org.snakeyaml", "love.chihuyu.$loweredProject.lib.org.snakeyaml")
         relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
         relocate("dev.jorel.commandapi", "love.chihuyu.$loweredProject.lib.dev.jorel.commandapi")
+        archiveClassifier.set("")
     }
 }
 
