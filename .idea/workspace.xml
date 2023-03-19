@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="idea settings">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,6 +177,7 @@
       <workItem from="1679134816510" duration="8000" />
       <workItem from="1679134829937" duration="139000" />
       <workItem from="1679135529941" duration="158000" />
+      <workItem from="1679248263232" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -377,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679134761280</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option">
+      <created>1679248335221</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679248335221</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +407,8 @@
     <MESSAGE value="bye george" />
     <MESSAGE value="update ignore" />
     <MESSAGE value="idea settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea settings" />
+    <MESSAGE value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
+    <option name="LAST_COMMIT_MESSAGE" value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
