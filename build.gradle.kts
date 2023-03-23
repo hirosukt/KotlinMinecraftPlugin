@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
-    implementation("love.chihuyu:ChihuyuLib:0.1.3")
+    implementation("love.chihuyu:ChihuyuLib:0.1.4")
     implementation("dev.jorel:commandapi-core:8.8.0")
     implementation("dev.jorel:commandapi-kotlin:8.8.0")
     implementation("org.yaml:snakeyaml:2.0")
