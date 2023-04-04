@@ -58,6 +58,11 @@ tasks {
         relocate("love.chihuyu", "love.chihuyu.$loweredProject.lib.love.chihuyu")
         relocate("dev.jorel.commandapi", "love.chihuyu.$loweredProject.lib.dev.jorel.commandapi")
     }
+
+    runServer {
+        minecraftVersion("1.19.4")
+        File("C:/home/developing/Minecraft Server Runtimes/standard_plugin_sets").listFiles()?.let { pluginJars(*it) }
+    }
 }
 
 nexusPublishing {
