@@ -1,4 +1,4 @@
-# PurpurPluginTemplate
+# KotlinMinecraftPlugin
 Best purpur plugin template for me.  
 ※All of settings are tuned for me, probably you unfamiliar write codes at this template.
 
