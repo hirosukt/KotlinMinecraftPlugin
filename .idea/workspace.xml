@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="Update base api version" />
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="?">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +90,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="run paper" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinMinecraftPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -147,29 +156,7 @@
       <recent name="love.chihuyu.plugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KotlinMinecraftPlugin [runServer]">
-    <configuration name="KotlinMinecraftPlugin [closeAndReleaseRepoStagingRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="closeAndReleaseRepoStagingRepository" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.KotlinMinecraftPlugin [shadowJar]">
     <configuration name="KotlinMinecraftPlugin [closeAndReleaseStagingRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -258,8 +245,30 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="KotlinMinecraftPlugin [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Gradle.KotlinMinecraftPlugin [closeAndReleaseRepoStagingRepository]" />
+      <item itemvalue="Gradle.KotlinMinecraftPlugin [shadowJar]" />
       <item itemvalue="Gradle.KotlinMinecraftPlugin [closeAndReleaseStagingRepository]" />
       <item itemvalue="Gradle.KotlinMinecraftPlugin [closeRepoStagingRepository]" />
       <item itemvalue="Gradle.KotlinMinecraftPlugin [publishPluginMavenPublicationToRepoRepository]" />
@@ -267,11 +276,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KotlinMinecraftPlugin [shadowJar]" />
         <item itemvalue="Gradle.KotlinMinecraftPlugin [runServer]" />
         <item itemvalue="Gradle.KotlinMinecraftPlugin [publishPluginMavenPublicationToRepoRepository]" />
         <item itemvalue="Gradle.KotlinMinecraftPlugin [closeAndReleaseStagingRepository]" />
         <item itemvalue="Gradle.KotlinMinecraftPlugin [closeRepoStagingRepository]" />
-        <item itemvalue="Gradle.KotlinMinecraftPlugin [closeAndReleaseRepoStagingRepository]" />
       </list>
     </recent_temporary>
   </component>
@@ -310,14 +319,8 @@
       <workItem from="1679717275003" duration="133000" />
       <workItem from="1680624592344" duration="1231000" />
       <workItem from="1680626572452" duration="1047000" />
-      <workItem from="1680631184876" duration="2635000" />
-    </task>
-    <task id="LOCAL-00003" summary="リポジトリだぁぁぁーーーーーーーーーーーーーーーーーーーーーーッッッッッ！！！！！！">
-      <created>1678724691250</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678724691250</updated>
+      <workItem from="1680631184876" duration="2695000" />
+      <workItem from="1680634472834" duration="263000" />
     </task>
     <task id="LOCAL-00004" summary="ぶちゅ">
       <created>1678724811129</created>
@@ -655,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680633834502</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="?">
+      <created>1680633857530</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633857530</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +685,6 @@
     <MESSAGE value="bye george" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
-    <MESSAGE value="?" />
     <MESSAGE value="fix repository url" />
     <MESSAGE value="fuck relocate" />
     <MESSAGE value="fix shadowJar archive name" />
@@ -690,7 +699,8 @@
     <MESSAGE value="Update description" />
     <MESSAGE value="VANISHMENT" />
     <MESSAGE value="Update base api version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update base api version" />
+    <MESSAGE value="?" />
+    <option name="LAST_COMMIT_MESSAGE" value="?" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

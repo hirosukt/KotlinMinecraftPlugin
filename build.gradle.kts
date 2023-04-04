@@ -4,9 +4,11 @@ plugins {
     id("org.jlleitschuh.gradle.ktlint") version "11.3.1"
     id("xyz.jpenilla.run-paper") version "2.0.0"
     id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
-    `kotlin-dsl`
-    `java-library`
     `maven-publish`
+    `java-library`
+    `kotlin-dsl`
+    java
+    idea
 }
 
 group = "love.chihuyu"
