@@ -19,11 +19,17 @@ repositories {
     mavenCentral()
     maven("https://repo.codemc.org/repository/maven-public/")
     maven("https://repo.hirosuke.me/repository/maven-public/")
-    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
+    maven("https://repo.papermc.io/repository/maven-public/")
 }
 
+/*
+1.7.10~1.8.8: "com.github.paperspigot:paperspigot-api:$pluginVersion-R0.1-SNAPSHOT"
+1.9.4~1.16.5: "com.destroystokyo.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT"
+1.17~1.19.4: "io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT"
+ */
+
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
     implementation("love.chihuyu:ChihuyuLib:0.1.4")
     implementation("dev.jorel:commandapi-core:8.8.0")
     implementation("dev.jorel:commandapi-kotlin:8.8.0")
