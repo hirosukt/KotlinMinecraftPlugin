@@ -4,115 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="add run-paper and nexus-publish plugin">
-      <change afterPath="$PROJECT_DIR$/run/banned-ips.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/banned-players.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/bukkit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/commands.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/paper-global.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/eula.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/help.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/lmax/disruptor/3.4.4/disruptor-3.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/authlib/3.18.38/authlib-3.18.38.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/velocitypowered/velocity-native/3.1.2-SNAPSHOT/velocity-native-3.1.2-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/commons-codec/commons-codec/1.11/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-all/4.1.87.Final/netty-all-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-dns/4.1.87.Final/netty-codec-dns-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-haproxy/4.1.87.Final/netty-codec-haproxy-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-http2/4.1.87.Final/netty-codec-http2-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-memcache/4.1.87.Final/netty-codec-memcache-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-mqtt/4.1.87.Final/netty-codec-mqtt-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-socks/4.1.87.Final/netty-codec-socks-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-stomp/4.1.87.Final/netty-codec-stomp-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-xml/4.1.87.Final/netty-codec-xml-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-handler-proxy/4.1.87.Final/netty-handler-proxy-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-handler-ssl-ocsp/4.1.87.Final/netty-handler-ssl-ocsp-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.87.Final/netty-resolver-dns-classes-macos-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-resolver-dns-native-macos/4.1.87.Final/netty-resolver-dns-native-macos-4.1.87.Final-osx-aarch_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-resolver-dns-native-macos/4.1.87.Final/netty-resolver-dns-native-macos-4.1.87.Final-osx-x86_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final-linux-aarch_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final-linux-x86_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final-osx-x86_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-rxtx/4.1.87.Final/netty-transport-rxtx-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-sctp/4.1.87.Final/netty-transport-sctp-4.1.87.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/paper/paper-api/1.19.4-R0.1-SNAPSHOT/paper-api-1.19.4-R0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/paper/paper-mojangapi/1.19.4-R0.1-SNAPSHOT/paper-mojangapi-1.19.4-R0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/fabricmc/mapping-io/0.3.0/mapping-io-0.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-key/4.13.0/adventure-key-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-minimessage/4.13.0/adventure-text-minimessage-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-plain/4.13.0/adventure-text-serializer-plain-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-iostreams/2.19.0/log4j-iostreams-2.19.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-model/3.8.5/maven-model-3.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-repository-metadata/3.8.5/maven-repository-metadata-3.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-resolver-provider/3.8.5/maven-resolver-provider-3.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.3/maven-resolver-connector-basic-1.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-spi/1.7.3/maven-resolver-spi-1.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-util/1.7.3/maven-resolver-util-1.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal-jansi/3.21.0/jline-terminal-jansi-3.21.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal/3.21.0/jline-terminal-3.21.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm/9.4/asm-9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/spongepowered/configurate-core/4.1.2/configurate-core-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/xerial/sqlite-jdbc/3.41.0.0/sqlite-jdbc-3.41.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-04-05-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/ops.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/permissions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/bStats/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/versions/1.19.4/paper-1.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/datapacks/bukkit/pack.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/paper-world.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/uid.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/paper-world.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/uid.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/paper-world.yml" afterDir="false" />
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="configure run-paper">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +317,7 @@
       <workItem from="1679717275003" duration="133000" />
       <workItem from="1680624592344" duration="1231000" />
       <workItem from="1680626572452" duration="1047000" />
-      <workItem from="1680631184876" duration="1719000" />
+      <workItem from="1680631184876" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -678,7 +571,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680632188696</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update ignore">
+      <created>1680632930577</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1680632930577</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update ignore">
+      <created>1680632971921</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1680632971921</updated>
+    </task>
+    <task id="LOCAL-00039" summary="configure run-paper">
+      <created>1680632996479</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1680632996479</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +602,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="うおりゃあああああああああああああああああああああああああああああああああ" />
     <MESSAGE value="ジャマだあああああああああああああああああああ" />
     <MESSAGE value="ファーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーック" />
     <MESSAGE value="どぅおりゃあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ" />
@@ -703,7 +616,6 @@
     <MESSAGE value="fuck renovate when setup" />
     <MESSAGE value="buy yeah waste code" />
     <MESSAGE value="bye george" />
-    <MESSAGE value="update ignore" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
     <MESSAGE value="?" />
@@ -713,7 +625,9 @@
     <MESSAGE value="separate deploy repository by SNAPSHOT determing" />
     <MESSAGE value="change some api and configurations" />
     <MESSAGE value="add run-paper and nexus-publish plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add run-paper and nexus-publish plugin" />
+    <MESSAGE value="update ignore" />
+    <MESSAGE value="configure run-paper" />
+    <option name="LAST_COMMIT_MESSAGE" value="configure run-paper" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
