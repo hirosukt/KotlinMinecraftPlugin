@@ -13,7 +13,7 @@ build/
 *.iml
 *.ipr
 out/
-!run/eula.txt
+!**/run/eula.txt
 run/
 !**/src/main/**/out/
 !**/src/test/**/out/
