@@ -61,7 +61,6 @@ tasks {
 
     runServer {
         minecraftVersion("1.19.4")
-        File("C:/home/developing/Minecraft Server Runtimes/standard_plugin_sets").listFiles()?.let { pluginJars(*it) }
     }
 }
 
