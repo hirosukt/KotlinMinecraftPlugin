@@ -10,4 +10,9 @@ Best purpur plugin template for me.
 ## Format
 You can format codes to very handsome using ktlint.
 1. Configure rules in `build.gradle.kts#ktlint`
-2. Run `ktlintFormat`
+2. Run gradle task `ktlintFormat`
+
+## Test
+You can test plugin in paper with gradle.
+Server data folder generated in `run/`.
+1. Run gradle task `runServer`

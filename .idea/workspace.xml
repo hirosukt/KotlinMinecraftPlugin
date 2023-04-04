@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="configure run-paper">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="removed standard plugin folder implements">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +317,7 @@
       <workItem from="1679717275003" duration="133000" />
       <workItem from="1680624592344" duration="1231000" />
       <workItem from="1680626572452" duration="1047000" />
-      <workItem from="1680631184876" duration="1937000" />
+      <workItem from="1680631184876" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -592,7 +592,70 @@
       <option name="project" value="LOCAL" />
       <updated>1680632996479</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update ignore">
+      <created>1680633149568</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633149568</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update ignore">
+      <created>1680633175197</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633175197</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update ignore">
+      <created>1680633191171</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633191171</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update ignore">
+      <created>1680633201979</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633201979</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update ignore">
+      <created>1680633237990</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633237990</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update ignore">
+      <created>1680633319601</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633319601</updated>
+    </task>
+    <task id="LOCAL-00046" summary="save eula">
+      <created>1680633328126</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633328126</updated>
+    </task>
+    <task id="LOCAL-00047" summary="remove waste line">
+      <created>1680633565351</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633565351</updated>
+    </task>
+    <task id="LOCAL-00048" summary="removed standard plugin folder implements">
+      <created>1680633637358</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633637358</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,9 +665,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ジャマだあああああああああああああああああああ" />
-    <MESSAGE value="ファーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーック" />
-    <MESSAGE value="どぅおりゃあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ" />
     <MESSAGE value="いよいしょーーーーーーーーーーーーーーーーーーーーーーーーーーー" />
     <MESSAGE value="update" />
     <MESSAGE value="よいしょ" />
@@ -625,9 +685,12 @@
     <MESSAGE value="separate deploy repository by SNAPSHOT determing" />
     <MESSAGE value="change some api and configurations" />
     <MESSAGE value="add run-paper and nexus-publish plugin" />
-    <MESSAGE value="update ignore" />
     <MESSAGE value="configure run-paper" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure run-paper" />
+    <MESSAGE value="update ignore" />
+    <MESSAGE value="save eula" />
+    <MESSAGE value="remove waste line" />
+    <MESSAGE value="removed standard plugin folder implements" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed standard plugin folder implements" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
