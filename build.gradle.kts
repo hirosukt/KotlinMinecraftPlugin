@@ -2,8 +2,11 @@ plugins {
     kotlin("jvm") version "1.8.20"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.jlleitschuh.gradle.ktlint") version "11.3.1"
-    `maven-publish`
+    id("xyz.jpenilla.run-paper") version "2.0.0"
+    id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
     `kotlin-dsl`
+    `java-library`
+    `maven-publish`
 }
 
 group = "love.chihuyu"
@@ -57,23 +60,11 @@ tasks {
     }
 }
 
-publishing {
+nexusPublishing {
     repositories {
-        maven {
-            name = "repo"
-            credentials(PasswordCredentials::class)
-            url = uri(if (project.version.toString().endsWith("SNAPSHOT")) {
-                "https://repo.hirosuke.me/repository/maven-snapshots/"
-            } else {
-                "https://repo.hirosuke.me/repository/maven-releases/"
-            })
-
-        }
-    }
-
-    publications {
-        create<MavenPublication>("mavenJava") {
-            from(components["java"])
+        create("repo") {
+            nexusUrl.set(uri("https://repo.hirosuke.me/repository/maven-releases/"))
+            snapshotRepositoryUrl.set(uri("https://repo.hirosuke.me/repository/maven-snapshots/"))
         }
     }
 }
