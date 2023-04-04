@@ -7,22 +7,21 @@ plugins {
 }
 
 group = "love.chihuyu"
-version = "0.0.1"
+version = "0.0.1-SNAPSHOT"
 val pluginVersion: String by project.ext
 
 repositories {
     mavenCentral()
     maven("https://repo.codemc.org/repository/maven-public/")
-    maven("https://repo.purpurmc.org/snapshots")
     maven("https://repo.hirosuke.me/repository/maven-public/")
+    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
 }
 
 dependencies {
-    compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
     implementation("love.chihuyu:ChihuyuLib:0.1.4")
     implementation("dev.jorel:commandapi-core:8.8.0")
     implementation("dev.jorel:commandapi-kotlin:8.8.0")
-    implementation("org.yaml:snakeyaml:2.0")
     implementation(kotlin("stdlib"))
 }
 
@@ -52,9 +51,8 @@ tasks {
     shadowJar {
         val loweredProject = project.name.lowercase()
         exclude("org/slf4j/**")
-        relocate("love.chihuyu", "love.chihuyu.$loweredProject.lib.love.chihuyu")
-        relocate("org.snakeyaml", "love.chihuyu.$loweredProject.lib.org.snakeyaml")
         relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
+        relocate("love.chihuyu", "love.chihuyu.$loweredProject.lib.love.chihuyu")
         relocate("dev.jorel.commandapi", "love.chihuyu.$loweredProject.lib.dev.jorel.commandapi")
     }
 }
