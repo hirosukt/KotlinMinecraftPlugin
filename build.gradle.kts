@@ -63,7 +63,6 @@ tasks {
         val loweredProject = project.name.lowercase()
         exclude("org/slf4j/**")
         relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
-        relocate("love.chihuyu", "love.chihuyu.$loweredProject.lib.love.chihuyu")
         relocate("dev.jorel.commandapi", "love.chihuyu.$loweredProject.lib.dev.jorel.commandapi")
     }
 
