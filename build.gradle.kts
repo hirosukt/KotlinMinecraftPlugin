@@ -72,7 +72,7 @@ tasks {
 }
 
 nexusPublishing {
-    repositories {
+    this.repositories {
         create("repo") {
             nexusUrl.set(uri("https://repo.hirosuke.me/repository/maven-releases/"))
             snapshotRepositoryUrl.set(uri("https://repo.hirosuke.me/repository/maven-snapshots/"))
