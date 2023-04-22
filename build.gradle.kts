@@ -23,7 +23,7 @@ repositories {
 }
 
 /*
-1.7.10~1.8.8: "com.github.paperspigot:paperspigot-api:$pluginVersion-R0.1-SNAPSHOT"
+1.7.10~1.8.8: "org.github.paperspigot:paperspigot-api:$pluginVersion-R0.1-SNAPSHOT"
 1.9.4~1.16.5: "com.destroystokyo.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT"
 1.17~1.19.4: "io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT"
  */
