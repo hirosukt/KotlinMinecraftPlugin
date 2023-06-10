@@ -17,8 +17,8 @@ val pluginVersion: String by project.ext
 repositories {
     mavenCentral()
     maven("https://repo.codemc.org/repository/maven-public/")
-    maven("https://repo.hirosuke.me/repository/maven-public/")
     maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://repo.hirosuke.me/snapshots/")
 //    maven("https://repo.purpurmc.org/snapshots")
 }
 
@@ -63,8 +63,8 @@ tasks {
     shadowJar {
         val loweredProject = project.name.lowercase()
         exclude("org/slf4j/**")
+        exclude("dev.jorel.commandapi")
         relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
-        relocate("dev.jorel.commandapi", "love.chihuyu.$loweredProject.lib.dev.jorel.commandapi")
     }
 
     runServer {
@@ -79,9 +79,9 @@ publishing {
             credentials(PasswordCredentials::class)
             url = uri(
                 if (project.version.toString().endsWith("SNAPSHOT"))
-                    "https://repo.hirosuke.me/repository/maven-snapshots/"
+                    "https://repo.hirosuke.me/snapshots/"
                 else
-                    "https://repo.hirosuke.me/repository/maven-releases/"
+                    "https://repo.hirosuke.me/releases/"
             )
         }
     }
@@ -94,7 +94,7 @@ publishing {
 }
 
 kotlin {
-    jvmToolchain(18)
+    jvmToolchain(17)
 }
 
 open class SetupTask : DefaultTask() {
