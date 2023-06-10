@@ -1,9 +1,8 @@
 plugins {
-    kotlin("jvm") version "1.8.22"
+    kotlin("jvm") version "1.8.20"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.jlleitschuh.gradle.ktlint") version "11.4.0"
     id("xyz.jpenilla.run-paper") version "2.1.0"
-    id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
     `maven-publish`
     `java-library`
     `kotlin-dsl`
@@ -20,6 +19,7 @@ repositories {
     maven("https://repo.codemc.org/repository/maven-public/")
     maven("https://repo.hirosuke.me/repository/maven-public/")
     maven("https://repo.papermc.io/repository/maven-public/")
+//    maven("https://repo.purpurmc.org/snapshots")
 }
 
 /*
@@ -29,8 +29,9 @@ repositories {
  */
 
 dependencies {
+//    compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
     compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
-    implementation("love.chihuyu:ChihuyuLib:0.1.4")
+    implementation("love.chihuyu:ChihuyuUtils:1.0.0-SNAPSHOT")
     implementation("dev.jorel:commandapi-core:9.0.2")
     implementation("dev.jorel:commandapi-kotlin:8.8.0")
     implementation(kotlin("stdlib"))
@@ -71,11 +72,23 @@ tasks {
     }
 }
 
-nexusPublishing {
-    this.repositories {
-        create("repo") {
-            nexusUrl.set(uri("https://repo.hirosuke.me/repository/maven-releases/"))
-            snapshotRepositoryUrl.set(uri("https://repo.hirosuke.me/repository/maven-snapshots/"))
+publishing {
+    repositories {
+        maven {
+            name = "repo"
+            credentials(PasswordCredentials::class)
+            url = uri(
+                if (project.version.toString().endsWith("SNAPSHOT"))
+                    "https://repo.hirosuke.me/repository/maven-snapshots/"
+                else
+                    "https://repo.hirosuke.me/repository/maven-releases/"
+            )
+        }
+    }
+
+    publications {
+        create<MavenPublication>("mavenJava") {
+            from(components["java"])
         }
     }
 }
