@@ -105,20 +105,20 @@ task("setup") {
         val srcDir = projectDir.resolve("src/main/kotlin/love/chihuyu/${project.name.lowercase()}").apply(File::mkdirs)
         srcDir.resolve("${project.name}Plugin.kt").writeText(
             """
-            package love.chihuyu.${project.name.lowercase()}
-            
-            import org.bukkit.plugin.java.JavaPlugin
-
-            class ${project.name}Plugin: JavaPlugin() {
-                companion object {
-                    lateinit var ${project.name}Plugin: JavaPlugin
+                package love.chihuyu.${project.name.lowercase()}
+                
+                import org.bukkit.plugin.java.JavaPlugin
+    
+                class ${project.name}Plugin: JavaPlugin() {
+                    companion object {
+                        lateinit var ${project.name}Plugin: JavaPlugin
+                    }
+                
+                    init {
+                        ${project.name}Plugin = this
+                    }
                 }
-            
-                init {
-                    ${project.name}Plugin = this
-                }
-            }
-        """.trimIndent()
+            """.trimIndent()
         )
     }
 }
@@ -128,37 +128,37 @@ task("generateActionsFile") {
         val actionFile = projectDir.resolve(".github/workflows").apply(File::mkdirs)
         actionFile.resolve("deploy.yml").writeText(
             """
-            name: Deploy
-            on:
-              workflow_dispatch:
-              push:
-                branches:
-                  - 'master'
-                paths-ignore:
-                  - "**.md"
-            jobs:
-              build:
-                runs-on: ubuntu-latest
-                permissions:
-                  contents: read
-                steps:
-                  - uses: actions/checkout@v3
-                  - name: Set up JDK 17
-                    uses: actions/setup-java@v3
-                    with:
-                      java-version: '17'
-                      distribution: 'temurin'
-                  - name: Grant execute permission for gradlew
-                    run: chmod +x gradlew
-                  - name: Prepare gradle.properties
-                    run: |
-                      mkdir -p ${ "\$HOME" }/.gradle
-                      echo ${ "repoUsername=\${{ secrets.DEPLOY_USERNAME }} "} >> ${ "\$HOME" }/.gradle/gradle.properties
-                      echo ${ "repoPassword=\${{ secrets.DEPLOY_PASSWORD }}"} >> ${ "\$HOME" }/.gradle/gradle.properties
-                  - name: Deploy
-                    run: |
-                      ./gradlew clean test publish
-        """.trimIndent()
+                name: Deploy
+                on:
+                  workflow_dispatch:
+                  push:
+                    branches:
+                      - 'master'
+                    paths-ignore:
+                      - "**.md"
+                jobs:
+                  build:
+                    runs-on: ubuntu-latest
+                    permissions:
+                      contents: read
+                    steps:
+                      - uses: actions/checkout@v3
+                      - name: Set up JDK 17
+                        uses: actions/setup-java@v3
+                        with:
+                          java-version: '17'
+                          distribution: 'temurin'
+                      - name: Grant execute permission for gradlew
+                        run: chmod +x gradlew
+                      - name: Prepare gradle.properties
+                        run: |
+                          mkdir -p ${ "\$HOME" }/.gradle
+                          echo ${ "repoUsername=\${{ secrets.DEPLOY_USERNAME }} "} >> ${ "\$HOME" }/.gradle/gradle.properties
+                          echo ${ "repoPassword=\${{ secrets.DEPLOY_PASSWORD }}"} >> ${ "\$HOME" }/.gradle/gradle.properties
+                      - name: Deploy
+                        run: |
+                          ./gradlew clean test publish
+            """.trimIndent()
         )
     }
 }
