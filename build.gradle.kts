@@ -17,9 +17,9 @@ val pluginVersion: String by project.ext
 repositories {
     mavenCentral()
     maven("https://repo.codemc.org/repository/maven-public/")
-    maven("https://repo.papermc.io/repository/maven-public/")
+//    maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.hirosuke.me/snapshots/")
-//    maven("https://repo.purpurmc.org/snapshots")
+    maven("https://repo.purpurmc.org/snapshots")
 }
 
 /*
@@ -29,8 +29,8 @@ repositories {
  */
 
 dependencies {
-//    compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
-    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
+    compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
+//    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
     implementation("love.chihuyu:ChihuyuUtils:1.0.0-SNAPSHOT")
     implementation("dev.jorel:commandapi-core:9.0.2")
     implementation("dev.jorel:commandapi-kotlin:8.8.0")
