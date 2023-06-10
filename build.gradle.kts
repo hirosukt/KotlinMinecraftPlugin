@@ -31,6 +31,7 @@ repositories {
 dependencies {
     compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
+//    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
     implementation("love.chihuyu:ChihuyuUtils:1.0.0-SNAPSHOT")
     implementation("dev.jorel:commandapi-core:9.0.2")
     implementation("dev.jorel:commandapi-kotlin:8.8.0")
