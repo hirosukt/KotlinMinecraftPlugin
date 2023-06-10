@@ -98,10 +98,36 @@ kotlin {
     jvmToolchain(17)
 }
 
+task("setup") {
+    doFirst {
+        val projectDir = project.projectDir
+        projectDir.resolve("renovate.json").deleteOnExit()
+        val srcDir = projectDir.resolve("src/main/kotlin/love/chihuyu/${project.name.lowercase()}").apply(File::mkdirs)
+        srcDir.resolve("${project.name}Plugin.kt").writeText(
+            """
+            package love.chihuyu.${project.name.lowercase()}
+            
+            import org.bukkit.plugin.java.JavaPlugin
+
+            class ${project.name}Plugin: JavaPlugin() {
+                companion object {
+                    lateinit var ${project.name}Plugin: JavaPlugin
+                }
+            
+                init {
+                    ${project.name}Plugin = this
+                }
+            }
+        """.trimIndent()
+        )
+    }
+}
+
 task("generateActionsFile") {
-    val actionFile = projectDir.resolve(".github/workflows").apply(File::mkdirs)
-    actionFile.resolve("deploy.yml").writeText(
-        """
+    doFirst {
+        val actionFile = projectDir.resolve(".github/workflows").apply(File::mkdirs)
+        actionFile.resolve("deploy.yml").writeText(
+            """
             name: Deploy
             on:
               workflow_dispatch:
@@ -133,28 +159,6 @@ task("generateActionsFile") {
                     run: |
                       ./gradlew clean test publish
         """.trimIndent()
-    )
-}
-
-task("setup") {
-    val projectDir = project.projectDir
-    projectDir.resolve("renovate.json").deleteOnExit()
-    val srcDir = projectDir.resolve("src/main/kotlin/love/chihuyu/${project.name.lowercase()}").apply(File::mkdirs)
-    srcDir.resolve("${project.name}Plugin.kt").writeText(
-        """
-            package love.chihuyu.${project.name.lowercase()}
-            
-            import org.bukkit.plugin.java.JavaPlugin
-
-            class ${project.name}Plugin: JavaPlugin() {
-                companion object {
-                    lateinit var ${project.name}Plugin: JavaPlugin
-                }
-            
-                init {
-                    ${project.name}Plugin = this
-                }
-            }
-        """.trimIndent()
-    )
+        )
+    }
 }
