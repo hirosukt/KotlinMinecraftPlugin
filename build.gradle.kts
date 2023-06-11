@@ -32,9 +32,9 @@ dependencies {
     compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
-    implementation("love.chihuyu:ChihuyuUtils:1.0.0-SNAPSHOT")
-    implementation("dev.jorel:commandapi-core:9.0.2")
-    implementation("dev.jorel:commandapi-kotlin:8.8.0")
+    compileOnly("love.chihuyu:ChihuyuUtils:1.0.0-SNAPSHOT")
+    compileOnly("dev.jorel:commandapi-core:9.0.2")
+    compileOnly("dev.jorel:commandapi-kotlin:8.8.0")
     implementation(kotlin("stdlib"))
 }
 
@@ -62,10 +62,8 @@ tasks {
     }
 
     shadowJar {
-        val loweredProject = project.name.lowercase()
         exclude("org/slf4j/**")
-        exclude("dev.jorel.commandapi")
-        relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
+        relocate("kotlin", "love.chihuyu.${project.name.lowercase()}.lib.kotlin")
     }
 
     runServer {
