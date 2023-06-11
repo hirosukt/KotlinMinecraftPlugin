@@ -13,6 +13,10 @@ You can format codes to very handsome using ktlint.
 2. Run gradle task `ktlintFormat`
 
 ## Test
-You can test plugin in paper with gradle.
+You can test plugin in paper with gradle.  
 Server data folder generated in `run/`.
 1. Run gradle task `runServer`
+
+## Deploy
+If you write library using this.  
+Do `generateActionsFile` to generate .yml of github actions automatically.
