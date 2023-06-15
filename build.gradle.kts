@@ -33,7 +33,7 @@ dependencies {
 //    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.bukkit:bukkit:$pluginVersion-R0.1-SNAPSHOT")
-    compileOnly("love.chihuyu:ChihuyuUtils:1.0.0-SNAPSHOT")
+    compileOnly("love.chihuyu:chihuyu-utils:1.0.0-SNAPSHOT")
     compileOnly("dev.jorel:commandapi-core:9.0.3")
     compileOnly("dev.jorel:commandapi-kotlin:8.8.0")
     implementation(kotlin("stdlib"))
