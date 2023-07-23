@@ -36,7 +36,7 @@ dependencies {
     compileOnly("love.chihuyu:chihuyu-utils:1.0.0-SNAPSHOT")
     compileOnly("dev.jorel:commandapi-core:9.0.3")
     compileOnly("dev.jorel:commandapi-kotlin:8.8.0")
-    implementation(kotlin("stdlib"))
+    compileOnly(kotlin("stdlib"))
 }
 
 ktlint {
@@ -64,7 +64,6 @@ tasks {
 
     shadowJar {
         exclude("org/slf4j/**")
-        relocate("kotlin", "love.chihuyu.${project.name.lowercase()}.lib.kotlin")
     }
 
     runServer {

@@ -1,1 +1,1 @@
-rootProject.name = "kotlin-minecraft-plugin"
+rootProject.name = "KotlinMinecraftPlugin"
