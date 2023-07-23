@@ -1,5 +1,3 @@
-import org.gradle.configurationcache.extensions.capitalized
-
 plugins {
     kotlin("jvm") version "1.9.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
@@ -57,8 +55,8 @@ tasks {
         from(sourceSets.main.get().resources.srcDirs) {
             filter(org.apache.tools.ant.filters.ReplaceTokens::class, mapOf("tokens" to mapOf(
                 "version" to project.version.toString(),
-                "name" to project.name.capitalized(),
-                "mainPackage" to "love.chihuyu.${project.name.lowercase().replace("-", "")}.${project.name.capitalized()}Plugin"
+                "name" to project.name,
+                "mainPackage" to "love.chihuyu.${project.name.lowercase()}.${project.name}Plugin"
             )))
             filteringCharset = "UTF-8"
         }
@@ -66,7 +64,7 @@ tasks {
 
     shadowJar {
         exclude("org/slf4j/**")
-        relocate("kotlin", "love.chihuyu.${project.name.capitalized().lowercase()}.lib.kotlin")
+        relocate("kotlin", "love.chihuyu.${project.name.lowercase()}.lib.kotlin")
     }
 
     runServer {
@@ -103,20 +101,20 @@ task("setup") {
     doFirst {
         val projectDir = project.projectDir
         projectDir.resolve("renovate.json").deleteOnExit()
-        val srcDir = projectDir.resolve("src/main/kotlin/love/chihuyu/${project.name.capitalized().lowercase()}").apply(File::mkdirs)
-        srcDir.resolve("${project.name.capitalized()}Plugin.kt").writeText(
+        val srcDir = projectDir.resolve("src/main/kotlin/love/chihuyu/${project.name.lowercase()}").apply(File::mkdirs)
+        srcDir.resolve("${project.name}Plugin.kt").writeText(
             """
-                package love.chihuyu.${project.name.capitalized().lowercase()}
+                package love.chihuyu.${project.name.lowercase()}
                 
                 import org.bukkit.plugin.java.JavaPlugin
     
-                class ${project.name.capitalized()}Plugin: JavaPlugin() {
+                class ${project.name}Plugin: JavaPlugin() {
                     companion object {
-                        lateinit var ${project.name.capitalized()}Plugin: JavaPlugin
+                        lateinit var ${project.name}Plugin: JavaPlugin
                     }
                 
                     init {
-                        ${project.name.capitalized()}Plugin = this
+                        ${project.name}Plugin = this
                     }
                 }
             """.trimIndent()
