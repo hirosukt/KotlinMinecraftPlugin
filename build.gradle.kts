@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.9.20"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.jlleitschuh.gradle.ktlint") version "11.6.1"
-    id("xyz.jpenilla.run-paper") version "2.2.1"
+    id("xyz.jpenilla.run-paper") version "2.2.2"
     `maven-publish`
     `java-library`
     `kotlin-dsl`
