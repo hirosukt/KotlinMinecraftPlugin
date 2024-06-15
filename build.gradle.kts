@@ -34,7 +34,7 @@ dependencies {
 //    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.bukkit:bukkit:$pluginVersion-R0.1-SNAPSHOT")
     compileOnly("dev.jorel:commandapi-bukkit-core:9.4.2")
-    compileOnly("dev.jorel:commandapi-bukkit-kotlin:9.4.2")
+    compileOnly("dev.jorel:commandapi-bukkit-kotlin:9.5.0")
     compileOnly(kotlin("stdlib"))
 }
 
