@@ -26,7 +26,7 @@ repositories {
  */
 
 dependencies {
-    compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.bukkit:bukkit:$pluginVersion-R0.1-SNAPSHOT")
@@ -89,7 +89,7 @@ publishing {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 task("setup") {
