@@ -4,10 +4,7 @@ plugins {
     id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
     id("xyz.jpenilla.run-paper") version "2.3.0"
     `maven-publish`
-    `java-library`
     `kotlin-dsl`
-    java
-    idea
 }
 
 group = "love.chihuyu"
@@ -18,7 +15,7 @@ repositories {
     mavenCentral()
     maven("https://repo.codemc.org/repository/maven-public/")
 //    maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.hirosuke.me/snapshots/")
+    maven("https://repo.chihuyu.love/snapshots/")
     maven("https://repo.purpurmc.org/snapshots")
 }
 
@@ -77,9 +74,9 @@ publishing {
             credentials(PasswordCredentials::class)
             url = uri(
                 if (project.version.toString().endsWith("SNAPSHOT"))
-                    "https://repo.hirosuke.me/snapshots/"
+                    "https://repo.chihuyu.love/snapshots/"
                 else
-                    "https://repo.hirosuke.me/releases/"
+                    "https://repo.chihuyu.love/releases/"
             )
         }
     }
