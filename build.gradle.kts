@@ -30,7 +30,7 @@ dependencies {
 //    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.bukkit:bukkit:$pluginVersion-R0.1-SNAPSHOT")
-    compileOnly("dev.jorel:commandapi-bukkit-core:9.5.0")
+    compileOnly("dev.jorel:commandapi-bukkit-core:9.5.1")
     compileOnly("dev.jorel:commandapi-bukkit-kotlin:9.5.1")
     compileOnly(kotlin("stdlib"))
 }
