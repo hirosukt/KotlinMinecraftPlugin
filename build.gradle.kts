@@ -13,10 +13,9 @@ val pluginVersion: String by project.ext
 
 repositories {
     mavenCentral()
-    maven("https://repo.codemc.org/repository/maven-public/")
 //    maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.chihuyu.love/snapshots/")
     maven("https://repo.purpurmc.org/snapshots")
+    maven("https://repo.chihuyu.love/snapshots/")
 }
 
 /*
@@ -26,12 +25,11 @@ repositories {
  */
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
+    compileOnly("org.purpurmc.purpur:purpur-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("io.papermc.paper:paper-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
 //    compileOnly("org.bukkit:bukkit:$pluginVersion-R0.1-SNAPSHOT")
-    compileOnly("dev.jorel:commandapi-bukkit-core:9.5.0")
-    compileOnly("dev.jorel:commandapi-bukkit-kotlin:9.5.0")
+    compileOnly("love.chihuyu:ChihuyuLib:0.0.1-SNAPSHOT")
     compileOnly(kotlin("stdlib"))
 }
 
